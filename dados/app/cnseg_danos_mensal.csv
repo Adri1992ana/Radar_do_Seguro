@@ -1,0 +1,805 @@
+mes,item,metrica,unidade,valor
+2021-01-01,Automóvel,arrecadacao,R$,2857296488.2432
+2021-02-01,Automóvel,arrecadacao,R$,2693005972.9976
+2021-03-01,Automóvel,arrecadacao,R$,3073071744.5917
+2021-04-01,Automóvel,arrecadacao,R$,2708690955.2216
+2021-05-01,Automóvel,arrecadacao,R$,2942512087.0353
+2021-06-01,Automóvel,arrecadacao,R$,3154838617.9914
+2021-07-01,Automóvel,arrecadacao,R$,3400513950.2802
+2021-08-01,Automóvel,arrecadacao,R$,3441044822.7428
+2021-09-01,Automóvel,arrecadacao,R$,3257334052.5932
+2021-10-01,Automóvel,arrecadacao,R$,3284785671.1097
+2021-11-01,Automóvel,arrecadacao,R$,3527124733.334
+2021-12-01,Automóvel,arrecadacao,R$,4091888118.125
+2022-01-01,Automóvel,arrecadacao,R$,3411607991.7225
+2022-02-01,Automóvel,arrecadacao,R$,3311665111.6763
+2022-03-01,Automóvel,arrecadacao,R$,3911195154.0921
+2022-04-01,Automóvel,arrecadacao,R$,3634993126.952
+2022-05-01,Automóvel,arrecadacao,R$,4190217014.0463
+2022-06-01,Automóvel,arrecadacao,R$,4356246956.072399
+2022-07-01,Automóvel,arrecadacao,R$,4577385733.5442
+2022-08-01,Automóvel,arrecadacao,R$,4965954434.313399
+2022-09-01,Automóvel,arrecadacao,R$,4611257428.009
+2022-10-01,Automóvel,arrecadacao,R$,4378368530.0576
+2022-11-01,Automóvel,arrecadacao,R$,4504376804.1224
+2022-12-01,Automóvel,arrecadacao,R$,5201656767.6734
+2023-01-01,Automóvel,arrecadacao,R$,4392347547.0868
+2023-02-01,Automóvel,arrecadacao,R$,4033601668.4337
+2023-03-01,Automóvel,arrecadacao,R$,4887389314.111601
+2023-04-01,Automóvel,arrecadacao,R$,4088588180.0867
+2023-05-01,Automóvel,arrecadacao,R$,4785382991.7211
+2023-06-01,Automóvel,arrecadacao,R$,4800601390.972301
+2023-07-01,Automóvel,arrecadacao,R$,4956737214.0738
+2023-08-01,Automóvel,arrecadacao,R$,5163942740.360701
+2023-09-01,Automóvel,arrecadacao,R$,4522250915.6922
+2023-10-01,Automóvel,arrecadacao,R$,4595048488.278
+2023-11-01,Automóvel,arrecadacao,R$,4548443804.757999
+2023-12-01,Automóvel,arrecadacao,R$,5074837351.965199
+2024-01-01,Automóvel,arrecadacao,R$,4609729748.055
+2024-02-01,Automóvel,arrecadacao,R$,4201917915.2691
+2024-03-01,Automóvel,arrecadacao,R$,4492152407.8608
+2024-04-01,Automóvel,arrecadacao,R$,4605897166.9298
+2024-05-01,Automóvel,arrecadacao,R$,4768309933.2072
+2024-06-01,Automóvel,arrecadacao,R$,4619588787.114201
+2024-07-01,Automóvel,arrecadacao,R$,5328215008.7263
+2024-08-01,Automóvel,arrecadacao,R$,5207669230.1072
+2024-09-01,Automóvel,arrecadacao,R$,4722625761.6575
+2024-10-01,Automóvel,arrecadacao,R$,5032544099.058901
+2024-11-01,Automóvel,arrecadacao,R$,4708457304.7254
+2024-12-01,Automóvel,arrecadacao,R$,5366151452.8901005
+2025-01-01,Automóvel,arrecadacao,R$,4893327938.4971
+2025-02-01,Automóvel,arrecadacao,R$,4553249079.0438
+2025-03-01,Automóvel,arrecadacao,R$,4757323149.8801
+2025-04-01,Automóvel,arrecadacao,R$,4806813148.3529
+2025-05-01,Automóvel,arrecadacao,R$,4999355810.6257
+2025-06-01,Automóvel,arrecadacao,R$,4903522458.4456005
+2025-07-01,Automóvel,arrecadacao,R$,5636913137.343699
+2025-08-01,Automóvel,arrecadacao,R$,5312793238.5321
+2025-09-01,Automóvel,arrecadacao,R$,5289942265.0701
+2025-10-01,Automóvel,arrecadacao,R$,5527874972.4345
+2025-11-01,Automóvel,arrecadacao,R$,4948115463.895
+2025-12-01,Automóvel,arrecadacao,R$,5940432064.958
+2026-01-01,Automóvel,arrecadacao,R$,4983566468.4544
+2026-02-01,Automóvel,arrecadacao,R$,4636186902.7852
+2026-03-01,Automóvel,arrecadacao,R$,5455215940.0962
+2026-04-01,Automóvel,arrecadacao,R$,5181696408.4028
+2026-05-01,Automóvel,arrecadacao,R$,5154154174.5497
+2026-06-01,Automóvel,arrecadacao,R$,5320469748.1286
+2026-07-01,Automóvel,arrecadacao,R$,5970141873.636101
+2021-01-01,Habitacional,arrecadacao,R$,404243655.8885
+2021-02-01,Habitacional,arrecadacao,R$,398938824.8784
+2021-03-01,Habitacional,arrecadacao,R$,409224602.6998
+2021-04-01,Habitacional,arrecadacao,R$,407991890.0562
+2021-05-01,Habitacional,arrecadacao,R$,422948349.676
+2021-06-01,Habitacional,arrecadacao,R$,419718974.8057
+2021-07-01,Habitacional,arrecadacao,R$,423924992.9717
+2021-08-01,Habitacional,arrecadacao,R$,428696130.0021
+2021-09-01,Habitacional,arrecadacao,R$,435190565.0969001
+2021-10-01,Habitacional,arrecadacao,R$,438845356.125
+2021-11-01,Habitacional,arrecadacao,R$,446107441.995
+2021-12-01,Habitacional,arrecadacao,R$,451031568.0676
+2022-01-01,Habitacional,arrecadacao,R$,455562779.9801
+2022-02-01,Habitacional,arrecadacao,R$,453275546.8123
+2022-03-01,Habitacional,arrecadacao,R$,458764657.4857
+2022-04-01,Habitacional,arrecadacao,R$,467893747.0049
+2022-05-01,Habitacional,arrecadacao,R$,470891345.8708
+2022-06-01,Habitacional,arrecadacao,R$,462581543.7437
+2022-07-01,Habitacional,arrecadacao,R$,480694098.3493
+2022-08-01,Habitacional,arrecadacao,R$,487484377.0435
+2022-09-01,Habitacional,arrecadacao,R$,488377458.055
+2022-10-01,Habitacional,arrecadacao,R$,499964327.4716
+2022-11-01,Habitacional,arrecadacao,R$,502614285.7957
+2022-12-01,Habitacional,arrecadacao,R$,450831882.965
+2023-01-01,Habitacional,arrecadacao,R$,507230761.684
+2023-02-01,Habitacional,arrecadacao,R$,516019286.6107001
+2023-03-01,Habitacional,arrecadacao,R$,520046510.5002
+2023-04-01,Habitacional,arrecadacao,R$,524925915.1062
+2023-05-01,Habitacional,arrecadacao,R$,537992515.025
+2023-06-01,Habitacional,arrecadacao,R$,531114642.127
+2023-07-01,Habitacional,arrecadacao,R$,538323960.8363999
+2023-08-01,Habitacional,arrecadacao,R$,541058185.4135
+2023-09-01,Habitacional,arrecadacao,R$,546523972.3428
+2023-10-01,Habitacional,arrecadacao,R$,555839955.1619
+2023-11-01,Habitacional,arrecadacao,R$,556296762.511
+2023-12-01,Habitacional,arrecadacao,R$,564538501.2299999
+2024-01-01,Habitacional,arrecadacao,R$,566652106.3508
+2024-02-01,Habitacional,arrecadacao,R$,567837292.3982999
+2024-03-01,Habitacional,arrecadacao,R$,573263375.5962
+2024-04-01,Habitacional,arrecadacao,R$,580371430.8810999
+2024-05-01,Habitacional,arrecadacao,R$,585693968.1448
+2024-06-01,Habitacional,arrecadacao,R$,588999404.6602
+2024-07-01,Habitacional,arrecadacao,R$,600311999.4686999
+2024-08-01,Habitacional,arrecadacao,R$,611105911.0603
+2024-09-01,Habitacional,arrecadacao,R$,614586698.4945
+2024-10-01,Habitacional,arrecadacao,R$,619968347.1801
+2024-11-01,Habitacional,arrecadacao,R$,624121218.7816999
+2024-12-01,Habitacional,arrecadacao,R$,628696094.5518
+2025-01-01,Habitacional,arrecadacao,R$,634270555.4376
+2025-02-01,Habitacional,arrecadacao,R$,644252467.3401
+2025-03-01,Habitacional,arrecadacao,R$,650496120.8096
+2025-04-01,Habitacional,arrecadacao,R$,650569710.3849
+2025-05-01,Habitacional,arrecadacao,R$,661180066.0289999
+2025-06-01,Habitacional,arrecadacao,R$,666281868.9842999
+2025-07-01,Habitacional,arrecadacao,R$,671737858.271
+2025-08-01,Habitacional,arrecadacao,R$,676093685.7789
+2025-09-01,Habitacional,arrecadacao,R$,680585912.8725
+2025-10-01,Habitacional,arrecadacao,R$,689017057.0319
+2025-11-01,Habitacional,arrecadacao,R$,700059429.4889
+2025-12-01,Habitacional,arrecadacao,R$,691414534.2476001
+2026-01-01,Habitacional,arrecadacao,R$,710524234.9007
+2026-02-01,Habitacional,arrecadacao,R$,712286138.6257
+2026-03-01,Habitacional,arrecadacao,R$,720405923.7985001
+2026-04-01,Habitacional,arrecadacao,R$,729592417.5995001
+2026-05-01,Habitacional,arrecadacao,R$,737826227.8267001
+2026-06-01,Habitacional,arrecadacao,R$,739363025.8062
+2026-07-01,Habitacional,arrecadacao,R$,752740770.2542
+2021-01-01,Patrimonial,arrecadacao,R$,1445763635.0255
+2021-02-01,Patrimonial,arrecadacao,R$,1355426607.4057
+2021-03-01,Patrimonial,arrecadacao,R$,1219716736.2563
+2021-04-01,Patrimonial,arrecadacao,R$,1163285365.1355
+2021-05-01,Patrimonial,arrecadacao,R$,1312947395.894
+2021-06-01,Patrimonial,arrecadacao,R$,1751241072.2039003
+2021-07-01,Patrimonial,arrecadacao,R$,1606916336.5153997
+2021-08-01,Patrimonial,arrecadacao,R$,1393419347.1857
+2021-09-01,Patrimonial,arrecadacao,R$,1409565969.6734
+2021-10-01,Patrimonial,arrecadacao,R$,1367576543.233
+2021-11-01,Patrimonial,arrecadacao,R$,1348859430.4336998
+2021-12-01,Patrimonial,arrecadacao,R$,1602563336.5151
+2022-01-01,Patrimonial,arrecadacao,R$,1881303286.1795003
+2022-02-01,Patrimonial,arrecadacao,R$,1488451530.7944
+2022-03-01,Patrimonial,arrecadacao,R$,1673368176.7113
+2022-04-01,Patrimonial,arrecadacao,R$,1496087050.8096
+2022-05-01,Patrimonial,arrecadacao,R$,1703162587.2493002
+2022-06-01,Patrimonial,arrecadacao,R$,2070863262.2217
+2022-07-01,Patrimonial,arrecadacao,R$,1765580732.4436002
+2022-08-01,Patrimonial,arrecadacao,R$,1744908904.8372998
+2022-09-01,Patrimonial,arrecadacao,R$,1788714331.1151
+2022-10-01,Patrimonial,arrecadacao,R$,1577879998.7631998
+2022-11-01,Patrimonial,arrecadacao,R$,1615911667.5102
+2022-12-01,Patrimonial,arrecadacao,R$,1786516371.7608
+2023-01-01,Patrimonial,arrecadacao,R$,2074292491.8556
+2023-02-01,Patrimonial,arrecadacao,R$,1602907036.7590003
+2023-03-01,Patrimonial,arrecadacao,R$,1972618602.7256
+2023-04-01,Patrimonial,arrecadacao,R$,1721366579.305
+2023-05-01,Patrimonial,arrecadacao,R$,2007028115.6683
+2023-06-01,Patrimonial,arrecadacao,R$,2470011263.8967004
+2023-07-01,Patrimonial,arrecadacao,R$,2196255953.4626
+2023-08-01,Patrimonial,arrecadacao,R$,2080797417.993
+2023-09-01,Patrimonial,arrecadacao,R$,2001854410.9577
+2023-10-01,Patrimonial,arrecadacao,R$,2001564431.1973
+2023-11-01,Patrimonial,arrecadacao,R$,1935730916.5382
+2023-12-01,Patrimonial,arrecadacao,R$,2064607314.0959
+2024-01-01,Patrimonial,arrecadacao,R$,2198880941.0672
+2024-02-01,Patrimonial,arrecadacao,R$,2030212216.9539003
+2024-03-01,Patrimonial,arrecadacao,R$,2100508180.9766
+2024-04-01,Patrimonial,arrecadacao,R$,2191367067.9027
+2024-05-01,Patrimonial,arrecadacao,R$,2229507374.3843
+2024-06-01,Patrimonial,arrecadacao,R$,2571893327.8629003
+2024-07-01,Patrimonial,arrecadacao,R$,2934185242.6037
+2024-08-01,Patrimonial,arrecadacao,R$,2203109135.1308
+2024-09-01,Patrimonial,arrecadacao,R$,2239814356.7055
+2024-10-01,Patrimonial,arrecadacao,R$,2392977659.1178
+2024-11-01,Patrimonial,arrecadacao,R$,2236404258.7248
+2024-12-01,Patrimonial,arrecadacao,R$,2730002351.4724
+2025-01-01,Patrimonial,arrecadacao,R$,2646645507.3879
+2025-02-01,Patrimonial,arrecadacao,R$,2176148394.7862
+2025-03-01,Patrimonial,arrecadacao,R$,2536709635.3149
+2025-04-01,Patrimonial,arrecadacao,R$,2732041313.6308
+2025-05-01,Patrimonial,arrecadacao,R$,2499686696.5477
+2025-06-01,Patrimonial,arrecadacao,R$,2799090807.3083
+2025-07-01,Patrimonial,arrecadacao,R$,3064772840.8574004
+2025-08-01,Patrimonial,arrecadacao,R$,2333368678.5272
+2025-09-01,Patrimonial,arrecadacao,R$,2474559997.3298
+2025-10-01,Patrimonial,arrecadacao,R$,2834566597.7281003
+2025-11-01,Patrimonial,arrecadacao,R$,2493175533.0635
+2025-12-01,Patrimonial,arrecadacao,R$,3197507275.2713003
+2026-01-01,Patrimonial,arrecadacao,R$,2608743483.7904
+2026-02-01,Patrimonial,arrecadacao,R$,2280310997.0118
+2026-03-01,Patrimonial,arrecadacao,R$,2731732346.3309
+2026-04-01,Patrimonial,arrecadacao,R$,2716385907.1034
+2026-05-01,Patrimonial,arrecadacao,R$,2762396799.9581003
+2026-06-01,Patrimonial,arrecadacao,R$,2773325075.3545003
+2026-07-01,Patrimonial,arrecadacao,R$,3314387869.1568003
+2021-01-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,6900151339.857801
+2021-02-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,6325819130.917702
+2021-03-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,7199434158.445302
+2021-04-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,6456934603.171999
+2021-05-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,6860673547.0385
+2021-06-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8298077040.743898
+2021-07-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,7900251557.070203
+2021-08-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8131150899.0046
+2021-09-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,7803843518.2247
+2021-10-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,7498917825.176699
+2021-11-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,7573886421.038196
+2021-12-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8851583575.682804
+2022-01-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8315907856.107998
+2022-02-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8116910833.920603
+2022-03-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8465768075.888201
+2022-04-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,7991435613.077199
+2022-05-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8999757670.983702
+2022-06-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10726121818.2464
+2022-07-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10124169983.676998
+2022-08-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10854457432.761402
+2022-09-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10289446880.481892
+2022-10-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,9662526933.2862
+2022-11-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,9167313334.872805
+2022-12-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10547557338.285002
+2023-01-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10043592525.4712
+2023-02-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8920178286.7597
+2023-03-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10450945922.9308
+2023-04-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,8960493243.874897
+2023-05-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10273987758.618795
+2023-06-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11599354227.902802
+2023-07-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11162266928.0315
+2023-08-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11466578589.304502
+2023-09-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10534673072.4027
+2023-10-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10324959691.544794
+2023-11-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,9982437816.793894
+2023-12-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11373401665.1478
+2024-01-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10543995367.2403
+2024-02-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10359978625.976091
+2024-03-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10352921390.121004
+2024-04-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10388709147.183
+2024-05-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10837094107.9822
+2024-06-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11529368350.6715
+2024-07-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,12627140559.3958
+2024-08-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11770610574.326897
+2024-09-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11149467822.8131
+2024-10-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11799271828.622995
+2024-11-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10784635502.0125
+2024-12-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,12266477280.465803
+2025-01-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11875681580.968102
+2025-02-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10867379497.465103
+2025-03-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11015662663.550602
+2025-04-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11600674064.457804
+2025-05-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11207437233.115396
+2025-06-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,12526931542.467297
+2025-07-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,13206272975.718391
+2025-08-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11863190322.155302
+2025-09-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,12099434662.9309
+2025-10-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,12773865818.633505
+2025-11-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11321327333.756798
+2025-12-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,14170399810.343206
+2026-01-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11734980675.2238
+2026-02-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,10994047708.663996
+2026-03-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,12664715309.6856
+2026-04-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,12055280315.435396
+2026-05-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,11848094836.253405
+2026-06-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,13055086989.201002
+2026-07-01,Subtotal Danos e Responsabilidades,arrecadacao,R$,13616860306.586098
+2021-01-01,Automóvel,sinistralidade,razao,0.5872365127841633
+2021-02-01,Automóvel,sinistralidade,razao,0.593994763927073
+2021-03-01,Automóvel,sinistralidade,razao,0.5565745780156075
+2021-04-01,Automóvel,sinistralidade,razao,0.5429834418958789
+2021-05-01,Automóvel,sinistralidade,razao,0.5415262090109386
+2021-06-01,Automóvel,sinistralidade,razao,0.5980201116111735
+2021-07-01,Automóvel,sinistralidade,razao,0.6346557998047092
+2021-08-01,Automóvel,sinistralidade,razao,0.651696690244749
+2021-09-01,Automóvel,sinistralidade,razao,0.647269140917052
+2021-10-01,Automóvel,sinistralidade,razao,0.6731594528248652
+2021-11-01,Automóvel,sinistralidade,razao,0.7692349497959698
+2021-12-01,Automóvel,sinistralidade,razao,0.741123038264293
+2022-01-01,Automóvel,sinistralidade,razao,0.7283496663900337
+2022-02-01,Automóvel,sinistralidade,razao,0.738773816000674
+2022-03-01,Automóvel,sinistralidade,razao,0.7676207700514737
+2022-04-01,Automóvel,sinistralidade,razao,0.7342113641706777
+2022-05-01,Automóvel,sinistralidade,razao,0.7515942417736737
+2022-06-01,Automóvel,sinistralidade,razao,0.7258113008426774
+2022-07-01,Automóvel,sinistralidade,razao,0.6783031993933468
+2022-08-01,Automóvel,sinistralidade,razao,0.6971615866309391
+2022-09-01,Automóvel,sinistralidade,razao,0.6760573424032466
+2022-10-01,Automóvel,sinistralidade,razao,0.6380642693324736
+2022-11-01,Automóvel,sinistralidade,razao,0.6455298534473899
+2022-12-01,Automóvel,sinistralidade,razao,0.6105503430663457
+2023-01-01,Automóvel,sinistralidade,razao,0.6118321153831892
+2023-02-01,Automóvel,sinistralidade,razao,0.6160301881993163
+2023-03-01,Automóvel,sinistralidade,razao,0.6268609461300308
+2023-04-01,Automóvel,sinistralidade,razao,0.5540218954968532
+2023-05-01,Automóvel,sinistralidade,razao,0.5996830279949403
+2023-06-01,Automóvel,sinistralidade,razao,0.5738564514614746
+2023-07-01,Automóvel,sinistralidade,razao,0.5529786131936009
+2023-08-01,Automóvel,sinistralidade,razao,0.5843818386787181
+2023-09-01,Automóvel,sinistralidade,razao,0.5421526585518703
+2023-10-01,Automóvel,sinistralidade,razao,0.5583503719999511
+2023-11-01,Automóvel,sinistralidade,razao,0.587914733305747
+2023-12-01,Automóvel,sinistralidade,razao,0.5562969904590209
+2024-01-01,Automóvel,sinistralidade,razao,0.5844183662465912
+2024-02-01,Automóvel,sinistralidade,razao,0.5775511443980478
+2024-03-01,Automóvel,sinistralidade,razao,0.5541169630030578
+2024-04-01,Automóvel,sinistralidade,razao,0.5935544494331775
+2024-05-01,Automóvel,sinistralidade,razao,0.7157953154246463
+2024-06-01,Automóvel,sinistralidade,razao,0.5641988305415362
+2024-07-01,Automóvel,sinistralidade,razao,0.5874923603827414
+2024-08-01,Automóvel,sinistralidade,razao,0.5797808627961323
+2024-09-01,Automóvel,sinistralidade,razao,0.5959300997754295
+2024-10-01,Automóvel,sinistralidade,razao,0.6041742477891884
+2024-11-01,Automóvel,sinistralidade,razao,0.592225524925457
+2024-12-01,Automóvel,sinistralidade,razao,0.5770620169663645
+2025-01-01,Automóvel,sinistralidade,razao,0.6339563774887166
+2025-02-01,Automóvel,sinistralidade,razao,0.6183103544158282
+2025-03-01,Automóvel,sinistralidade,razao,0.5651097414692416
+2025-04-01,Automóvel,sinistralidade,razao,0.5876381766304111
+2025-05-01,Automóvel,sinistralidade,razao,0.5946735450663343
+2025-06-01,Automóvel,sinistralidade,razao,0.5856997091131936
+2025-07-01,Automóvel,sinistralidade,razao,0.6079610624336916
+2025-08-01,Automóvel,sinistralidade,razao,0.569491235452398
+2025-09-01,Automóvel,sinistralidade,razao,0.61807453851785
+2025-10-01,Automóvel,sinistralidade,razao,0.6151935841485291
+2025-11-01,Automóvel,sinistralidade,razao,0.5929524167586492
+2025-12-01,Automóvel,sinistralidade,razao,0.6218390778845022
+2026-01-01,Automóvel,sinistralidade,razao,0.6063677134716607
+2026-02-01,Automóvel,sinistralidade,razao,0.5905210379256184
+2026-03-01,Automóvel,sinistralidade,razao,0.6370459356340747
+2026-04-01,Automóvel,sinistralidade,razao,0.6132169694253614
+2026-05-01,Automóvel,sinistralidade,razao,0.5939485409663037
+2026-06-01,Automóvel,sinistralidade,razao,0.6074768369612362
+2026-07-01,Automóvel,sinistralidade,razao,0.6310460685711047
+2021-01-01,Habitacional,sinistralidade,razao,0.3057968979946762
+2021-02-01,Habitacional,sinistralidade,razao,0.3252850561974654
+2021-03-01,Habitacional,sinistralidade,razao,0.4143193267632836
+2021-04-01,Habitacional,sinistralidade,razao,0.5494211753631693
+2021-05-01,Habitacional,sinistralidade,razao,0.5666527624405494
+2021-06-01,Habitacional,sinistralidade,razao,0.3104607121373924
+2021-07-01,Habitacional,sinistralidade,razao,0.4922942647678496
+2021-08-01,Habitacional,sinistralidade,razao,0.3892882017620771
+2021-09-01,Habitacional,sinistralidade,razao,0.3893187614763282
+2021-10-01,Habitacional,sinistralidade,razao,0.2100748075036355
+2021-11-01,Habitacional,sinistralidade,razao,0.1995242944992001
+2021-12-01,Habitacional,sinistralidade,razao,0.3250724891604636
+2022-01-01,Habitacional,sinistralidade,razao,0.2317934089424357
+2022-02-01,Habitacional,sinistralidade,razao,0.2389262763872651
+2022-03-01,Habitacional,sinistralidade,razao,0.320440905762661
+2022-04-01,Habitacional,sinistralidade,razao,0.2384150090348062
+2022-05-01,Habitacional,sinistralidade,razao,0.2753613104944142
+2022-06-01,Habitacional,sinistralidade,razao,0.2431408337375728
+2022-07-01,Habitacional,sinistralidade,razao,0.2357130911825038
+2022-08-01,Habitacional,sinistralidade,razao,0.2510649897796336
+2022-09-01,Habitacional,sinistralidade,razao,0.2439426805918437
+2022-10-01,Habitacional,sinistralidade,razao,0.317498021993098
+2022-11-01,Habitacional,sinistralidade,razao,0.2536423896793808
+2022-12-01,Habitacional,sinistralidade,razao,0.3407845919485496
+2023-01-01,Habitacional,sinistralidade,razao,0.2350249446726694
+2023-02-01,Habitacional,sinistralidade,razao,0.2338656603317739
+2023-03-01,Habitacional,sinistralidade,razao,0.2515210783467628
+2023-04-01,Habitacional,sinistralidade,razao,0.2069394642199775
+2023-05-01,Habitacional,sinistralidade,razao,0.219944179675738
+2023-06-01,Habitacional,sinistralidade,razao,0.2565682648947504
+2023-07-01,Habitacional,sinistralidade,razao,0.2311586245779584
+2023-08-01,Habitacional,sinistralidade,razao,0.2433620323874613
+2023-09-01,Habitacional,sinistralidade,razao,0.2201231505736245
+2023-10-01,Habitacional,sinistralidade,razao,0.2212929246778439
+2023-11-01,Habitacional,sinistralidade,razao,0.2221062356945357
+2023-12-01,Habitacional,sinistralidade,razao,0.1030998683291462
+2024-01-01,Habitacional,sinistralidade,razao,0.2692151828150657
+2024-02-01,Habitacional,sinistralidade,razao,0.2195190995999678
+2024-03-01,Habitacional,sinistralidade,razao,0.2394387248677584
+2024-04-01,Habitacional,sinistralidade,razao,0.2620565114259994
+2024-05-01,Habitacional,sinistralidade,razao,1.0358067162616544
+2024-06-01,Habitacional,sinistralidade,razao,0.4190864219081306
+2024-07-01,Habitacional,sinistralidade,razao,0.237010906014029
+2024-08-01,Habitacional,sinistralidade,razao,0.1786680803749566
+2024-09-01,Habitacional,sinistralidade,razao,0.1653892515804916
+2024-10-01,Habitacional,sinistralidade,razao,0.3020557461730678
+2024-11-01,Habitacional,sinistralidade,razao,0.2147531664398499
+2024-12-01,Habitacional,sinistralidade,razao,0.0784293198467584
+2025-01-01,Habitacional,sinistralidade,razao,0.2498533039998019
+2025-02-01,Habitacional,sinistralidade,razao,0.2368852972320796
+2025-03-01,Habitacional,sinistralidade,razao,0.2274975461600125
+2025-04-01,Habitacional,sinistralidade,razao,0.2343208738872681
+2025-05-01,Habitacional,sinistralidade,razao,0.2512838415969907
+2025-06-01,Habitacional,sinistralidade,razao,0.2382242605365908
+2025-07-01,Habitacional,sinistralidade,razao,0.2415599003748084
+2025-08-01,Habitacional,sinistralidade,razao,0.2668081840191296
+2025-09-01,Habitacional,sinistralidade,razao,0.2392730219237833
+2025-10-01,Habitacional,sinistralidade,razao,0.239614010521355
+2025-11-01,Habitacional,sinistralidade,razao,0.2023611990404414
+2025-12-01,Habitacional,sinistralidade,razao,0.2215851000663891
+2026-01-01,Habitacional,sinistralidade,razao,0.2605795266023812
+2026-02-01,Habitacional,sinistralidade,razao,0.2345727449427543
+2026-03-01,Habitacional,sinistralidade,razao,0.2808059585202296
+2026-04-01,Habitacional,sinistralidade,razao,0.224476818936423
+2026-05-01,Habitacional,sinistralidade,razao,0.2572057131881044
+2026-06-01,Habitacional,sinistralidade,razao,0.2472782233953407
+2026-07-01,Habitacional,sinistralidade,razao,0.2774589468392353
+2021-01-01,Patrimonial,sinistralidade,razao,0.2803373490603782
+2021-02-01,Patrimonial,sinistralidade,razao,1.024048592311078
+2021-03-01,Patrimonial,sinistralidade,razao,0.8256894442214892
+2021-04-01,Patrimonial,sinistralidade,razao,0.5250178903868806
+2021-05-01,Patrimonial,sinistralidade,razao,0.3765045225198726
+2021-06-01,Patrimonial,sinistralidade,razao,0.0235886401018336
+2021-07-01,Patrimonial,sinistralidade,razao,0.37826753991212
+2021-08-01,Patrimonial,sinistralidade,razao,0.5474621482484229
+2021-09-01,Patrimonial,sinistralidade,razao,0.4903860175332455
+2021-10-01,Patrimonial,sinistralidade,razao,0.4862715179647119
+2021-11-01,Patrimonial,sinistralidade,razao,0.4646672415228542
+2021-12-01,Patrimonial,sinistralidade,razao,0.7545756267073318
+2022-01-01,Patrimonial,sinistralidade,razao,0.4299915757565883
+2022-02-01,Patrimonial,sinistralidade,razao,0.5348126801784439
+2022-03-01,Patrimonial,sinistralidade,razao,0.5060765351933433
+2022-04-01,Patrimonial,sinistralidade,razao,0.3958011296789273
+2022-05-01,Patrimonial,sinistralidade,razao,0.6460517875932569
+2022-06-01,Patrimonial,sinistralidade,razao,0.2287844526545468
+2022-07-01,Patrimonial,sinistralidade,razao,0.3811013487885885
+2022-08-01,Patrimonial,sinistralidade,razao,0.2608236525971208
+2022-09-01,Patrimonial,sinistralidade,razao,0.288033182079238
+2022-10-01,Patrimonial,sinistralidade,razao,0.2663406685565887
+2022-11-01,Patrimonial,sinistralidade,razao,0.4484335262152383
+2022-12-01,Patrimonial,sinistralidade,razao,0.2684838729780921
+2023-01-01,Patrimonial,sinistralidade,razao,0.3991969160768298
+2023-02-01,Patrimonial,sinistralidade,razao,0.3888352361900251
+2023-03-01,Patrimonial,sinistralidade,razao,0.4829522754238375
+2023-04-01,Patrimonial,sinistralidade,razao,0.3917033729201015
+2023-05-01,Patrimonial,sinistralidade,razao,0.2810097609071397
+2023-06-01,Patrimonial,sinistralidade,razao,0.3946848265087114
+2023-07-01,Patrimonial,sinistralidade,razao,0.2858603767723024
+2023-08-01,Patrimonial,sinistralidade,razao,0.4062381762315751
+2023-09-01,Patrimonial,sinistralidade,razao,0.3136963331774305
+2023-10-01,Patrimonial,sinistralidade,razao,0.4461774643132982
+2023-11-01,Patrimonial,sinistralidade,razao,0.4771244095289202
+2023-12-01,Patrimonial,sinistralidade,razao,0.3427265181578072
+2024-01-01,Patrimonial,sinistralidade,razao,0.3614072734657848
+2024-02-01,Patrimonial,sinistralidade,razao,0.3976966247951054
+2024-03-01,Patrimonial,sinistralidade,razao,0.2967872856071648
+2024-04-01,Patrimonial,sinistralidade,razao,0.2961371263352968
+2024-05-01,Patrimonial,sinistralidade,razao,0.6925500464624494
+2024-06-01,Patrimonial,sinistralidade,razao,0.9933777834841488
+2024-07-01,Patrimonial,sinistralidade,razao,0.7996809149787487
+2024-08-01,Patrimonial,sinistralidade,razao,0.3675946612596936
+2024-09-01,Patrimonial,sinistralidade,razao,0.5118984208760763
+2024-10-01,Patrimonial,sinistralidade,razao,0.3100366620821148
+2024-11-01,Patrimonial,sinistralidade,razao,0.2940740994327418
+2024-12-01,Patrimonial,sinistralidade,razao,0.287215175136618
+2025-01-01,Patrimonial,sinistralidade,razao,0.2608137453683281
+2025-02-01,Patrimonial,sinistralidade,razao,0.5116024660628378
+2025-03-01,Patrimonial,sinistralidade,razao,0.2579909281708851
+2025-04-01,Patrimonial,sinistralidade,razao,0.4262987827154555
+2025-05-01,Patrimonial,sinistralidade,razao,0.6296454890727582
+2025-06-01,Patrimonial,sinistralidade,razao,0.2596231754931131
+2025-07-01,Patrimonial,sinistralidade,razao,0.1001683168130019
+2025-08-01,Patrimonial,sinistralidade,razao,0.3884088119059277
+2025-09-01,Patrimonial,sinistralidade,razao,0.3082847919590348
+2025-10-01,Patrimonial,sinistralidade,razao,0.2887863926408302
+2025-11-01,Patrimonial,sinistralidade,razao,0.2849611958376715
+2025-12-01,Patrimonial,sinistralidade,razao,0.2500577299272518
+2026-01-01,Patrimonial,sinistralidade,razao,0.3039857896897974
+2026-02-01,Patrimonial,sinistralidade,razao,0.2669340147129549
+2026-03-01,Patrimonial,sinistralidade,razao,0.3211389822312217
+2026-04-01,Patrimonial,sinistralidade,razao,0.2604017689048746
+2026-05-01,Patrimonial,sinistralidade,razao,0.2181203628429746
+2026-06-01,Patrimonial,sinistralidade,razao,0.2580883388611401
+2026-07-01,Patrimonial,sinistralidade,razao,0.2553302401948524
+2021-01-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4271024684274478
+2021-02-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.6034075688640819
+2021-03-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5474493886631646
+2021-04-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4913838687004095
+2021-05-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4652234133840379
+2021-06-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4106731875215246
+2021-07-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5987229203315284
+2021-08-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5529311654006362
+2021-09-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5175981462046515
+2021-10-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5547892947527537
+2021-11-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.56427214226435
+2021-12-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.7189067617762834
+2022-01-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.8673977967915703
+2022-02-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.8157348403724568
+2022-03-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.7031025080948072
+2022-04-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5843142538052473
+2022-05-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.610574033196908
+2022-06-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5291073613703088
+2022-07-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5061483995604407
+2022-08-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5168835702154615
+2022-09-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4851498416025188
+2022-10-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4499616273181243
+2022-11-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5080541198237715
+2022-12-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4507120875361699
+2023-01-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5125652886319101
+2023-02-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5786624667550258
+2023-03-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5446144430536388
+2023-04-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.493874133577281
+2023-05-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4647180980397192
+2023-06-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4462661226700924
+2023-07-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.3787137504409689
+2023-08-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.442229721428072
+2023-09-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4344781210074018
+2023-10-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4540419079367369
+2023-11-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4713607672363887
+2023-12-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.396929384195702
+2024-01-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4922258618448141
+2024-02-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4761136567433416
+2024-03-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.3808462587330581
+2024-04-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4218055608121105
+2024-05-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.6645931750344978
+2024-06-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5834293520103574
+2024-07-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5197948576116725
+2024-08-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.458654434518199
+2024-09-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4572288527139942
+2024-10-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4384091409480116
+2024-11-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4342269238493257
+2024-12-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.3715386504028006
+2025-01-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4952660411272857
+2025-02-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5096877078625385
+2025-03-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4334530392310732
+2025-04-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4817743953163387
+2025-05-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.5125966900036403
+2025-06-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4804046366299958
+2025-07-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.411310831320124
+2025-08-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4285445950782482
+2025-09-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.454607636604807
+2025-10-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4432923448472651
+2025-11-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4524648677206477
+2025-12-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4182864254661824
+2026-01-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4490615385200783
+2026-02-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4253333339640468
+2026-03-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4440085012476462
+2026-04-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4175280763439054
+2026-05-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4078178167548494
+2026-06-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4402937304875948
+2026-07-01,Subtotal Danos e Responsabilidades,sinistralidade,razao,0.4733853966687621
+2021-01-01,Automóvel,sinistro,R$,1780515297.42
+2021-02-01,Automóvel,sinistro,R$,1645856391.64
+2021-03-01,Automóvel,sinistro,R$,1686130952.38
+2021-04-01,Automóvel,sinistro,R$,1593402956.89
+2021-05-01,Automóvel,sinistro,R$,1650925791.77
+2021-06-01,Automóvel,sinistro,R$,1775050853.2
+2021-07-01,Automóvel,sinistro,R$,1949385028.2000003
+2021-08-01,Automóvel,sinistro,R$,2010568293.33
+2021-09-01,Automóvel,sinistro,R$,1951212359.67
+2021-10-01,Automóvel,sinistro,R$,2113966557.83
+2021-11-01,Automóvel,sinistro,R$,2363094410.5600004
+2021-12-01,Automóvel,sinistro,R$,2389847407.61
+2022-01-01,Automóvel,sinistro,R$,2385221530.13
+2022-02-01,Automóvel,sinistro,R$,2223723651.08
+2022-03-01,Automóvel,sinistro,R$,2614985167.4800005
+2022-04-01,Automóvel,sinistro,R$,2468552032.04
+2022-05-01,Automóvel,sinistro,R$,2683010257.1800003
+2022-06-01,Automóvel,sinistro,R$,2569661721.68
+2022-07-01,Automóvel,sinistro,R$,2583657752.54
+2022-08-01,Automóvel,sinistro,R$,2718370800.03
+2022-09-01,Automóvel,sinistro,R$,2622240654.62
+2022-10-01,Automóvel,sinistro,R$,2619744276.62
+2022-11-01,Automóvel,sinistro,R$,2618008111.49
+2022-12-01,Automóvel,sinistro,R$,2638169878.53
+2023-01-01,Automóvel,sinistro,R$,2691819093.82
+2023-02-01,Automóvel,sinistro,R$,2478940614.37
+2023-03-01,Automóvel,sinistro,R$,2832459845.08
+2023-04-01,Automóvel,sinistro,R$,2441585079.91
+2023-05-01,Automóvel,sinistro,R$,2746187463.31
+2023-06-01,Automóvel,sinistro,R$,2591987486.07
+2023-07-01,Automóvel,sinistro,R$,2589290416.45
+2023-08-01,Automóvel,sinistro,R$,2763677018.19
+2023-09-01,Automóvel,sinistro,R$,2471710986.38
+2023-10-01,Automóvel,sinistro,R$,2620917355.88
+2023-11-01,Automóvel,sinistro,R$,2684295724.87
+2023-12-01,Automóvel,sinistro,R$,2634637288.8900003
+2024-01-01,Automóvel,sinistro,R$,2760430376.37
+2024-02-01,Automóvel,sinistro,R$,2558053897.83
+2024-03-01,Automóvel,sinistro,R$,2620690037.04
+2024-04-01,Automóvel,sinistro,R$,2724693037.4
+2024-05-01,Automóvel,sinistro,R$,3400800376.1199994
+2024-06-01,Automóvel,sinistro,R$,2602056973.02
+2024-07-01,Automóvel,sinistro,R$,2798463610.69
+2024-08-01,Automóvel,sinistro,R$,2780849066.19
+2024-09-01,Automóvel,sinistro,R$,2776221916.98
+2024-10-01,Automóvel,sinistro,R$,2929595237.3900003
+2024-11-01,Automóvel,sinistro,R$,2790753629.98
+2024-12-01,Automóvel,sinistro,R$,2815006634.4700003
+2025-01-01,Automóvel,sinistro,R$,3105064445.24
+2025-02-01,Automóvel,sinistro,R$,2757547755.73
+2025-03-01,Automóvel,sinistro,R$,2785653647.44
+2025-04-01,Automóvel,sinistro,R$,2823290976.55
+2025-05-01,Automóvel,sinistro,R$,2951282807.4300003
+2025-06-01,Automóvel,sinistro,R$,2835676482.37
+2025-07-01,Automóvel,sinistro,R$,3056743100.2
+2025-08-01,Automóvel,sinistro,R$,2878188023.13
+2025-09-01,Automóvel,sinistro,R$,3039024074.48
+2025-10-01,Automóvel,sinistro,R$,3150953522.04
+2025-11-01,Automóvel,sinistro,R$,2960602778.84
+2025-12-01,Automóvel,sinistro,R$,3226218772.69
+2026-01-01,Automóvel,sinistro,R$,3163991279.82
+2026-02-01,Automóvel,sinistro,R$,2797193107.26
+2026-03-01,Automóvel,sinistro,R$,3353786122.5200005
+2026-04-01,Automóvel,sinistro,R$,3136470627.86
+2026-05-01,Automóvel,sinistro,R$,3140658255.07
+2026-06-01,Automóvel,sinistro,R$,3131338670.33
+2026-07-01,Automóvel,sinistro,R$,3381997761.94
+2021-01-01,Habitacional,sinistro,R$,123705985.27
+2021-02-01,Habitacional,sinistro,R$,129747225.78
+2021-03-01,Habitacional,sinistro,R$,169920027.54999998
+2021-04-01,Habitacional,sinistro,R$,223976246.66000003
+2021-05-01,Habitacional,sinistro,R$,240063214.64
+2021-06-01,Habitacional,sinistro,R$,130364686.04
+2021-07-01,Habitacional,sinistro,R$,208925024.63
+2021-08-01,Habitacional,sinistro,R$,166267152.17999998
+2021-09-01,Habitacional,sinistro,R$,169330439.11
+2021-10-01,Habitacional,sinistro,R$,92341125.19
+2021-11-01,Habitacional,sinistro,R$,88958595.60000001
+2021-12-01,Habitacional,sinistro,R$,146532018.46
+2022-01-01,Habitacional,sinistro,R$,105778840.67
+2022-02-01,Habitacional,sinistro,R$,108441889.07
+2022-03-01,Habitacional,sinistro,R$,147366955.92000002
+2022-04-01,Habitacional,sinistro,R$,111448362.05
+2022-05-01,Habitacional,sinistro,R$,129822330.48
+2022-06-01,Habitacional,sinistro,R$,112392006.46
+2022-07-01,Habitacional,sinistro,R$,113208605.66
+2022-08-01,Habitacional,sinistro,R$,122285817.45
+2022-09-01,Habitacional,sinistro,R$,119026050.49
+2022-10-01,Habitacional,sinistro,R$,158639785.0
+2022-11-01,Habitacional,sinistro,R$,127462166.33
+2022-12-01,Habitacional,sinistro,R$,153204814.59
+2023-01-01,Habitacional,sinistro,R$,119041514.24
+2023-02-01,Habitacional,sinistro,R$,120249391.54
+2023-03-01,Habitacional,sinistro,R$,130875499.91
+2023-04-01,Habitacional,sinistro,R$,108614399.44
+2023-05-01,Habitacional,sinistro,R$,117806717.91
+2023-06-01,Habitacional,sinistro,R$,135615163.72
+2023-07-01,Habitacional,sinistro,R$,124550880.12
+2023-08-01,Habitacional,sinistro,R$,131547786.25
+2023-09-01,Habitacional,sinistro,R$,119705741.7
+2023-10-01,Habitacional,sinistro,R$,123257324.25
+2023-11-01,Habitacional,sinistro,R$,123346973.88
+2023-12-01,Habitacional,sinistro,R$,58233493.55
+2024-01-01,Habitacional,sinistro,R$,151255986.68
+2024-02-01,Habitacional,sinistro,R$,123623763.96
+2024-03-01,Habitacional,sinistro,R$,137591599.72
+2024-04-01,Habitacional,sinistro,R$,154798011.01
+2024-05-01,Habitacional,sinistro,R$,605026014.91
+2024-06-01,Habitacional,sinistro,R$,246564450.68
+2024-07-01,Habitacional,sinistro,R$,141996146.01
+2024-08-01,Habitacional,sinistro,R$,108733819.79
+2024-09-01,Habitacional,sinistro,R$,101840857.62
+2024-10-01,Habitacional,sinistro,R$,187265873.0
+2024-11-01,Habitacional,sinistro,R$,134309960.02
+2024-12-01,Habitacional,sinistro,R$,49447088.36
+2025-01-01,Habitacional,sinistro,R$,160206768.28
+2025-02-01,Habitacional,sinistro,R$,152095930.41000003
+2025-03-01,Habitacional,sinistro,R$,148020906.38
+2025-04-01,Habitacional,sinistro,R$,153150226.05
+2025-05-01,Habitacional,sinistro,R$,165497800.54
+2025-06-01,Habitacional,sinistro,R$,158892845.96999997
+2025-07-01,Habitacional,sinistro,R$,162046919.70999998
+2025-08-01,Habitacional,sinistro,R$,180393954.06
+2025-09-01,Habitacional,sinistro,R$,162257821.1
+2025-10-01,Habitacional,sinistro,R$,165360439.29
+2025-11-01,Habitacional,sinistro,R$,141858973.56
+2025-12-01,Habitacional,sinistro,R$,154532067.93000004
+2026-01-01,Habitacional,sinistro,R$,184631954.63000005
+2026-02-01,Habitacional,sinistro,R$,167268955.92000002
+2026-03-01,Habitacional,sinistro,R$,203491652.13
+2026-04-01,Habitacional,sinistro,R$,163138987.17
+2026-05-01,Habitacional,sinistro,R$,190113968.31
+2026-06-01,Habitacional,sinistro,R$,183047685.19
+2026-07-01,Habitacional,sinistro,R$,209993874.45
+2021-01-01,Patrimonial,sinistro,R$,345436467.58
+2021-02-01,Patrimonial,sinistro,R$,1201791641.98
+2021-03-01,Patrimonial,sinistro,R$,1077239001.02
+2021-04-01,Patrimonial,sinistro,R$,655032578.6600001
+2021-05-01,Patrimonial,sinistro,R$,506468671.96
+2021-06-01,Patrimonial,sinistro,R$,30601024.639999986
+2021-07-01,Patrimonial,sinistro,R$,510560041.58
+2021-08-01,Patrimonial,sinistro,R$,755073957.71
+2021-09-01,Patrimonial,sinistro,R$,668040610.0
+2021-10-01,Patrimonial,sinistro,R$,671621463.39
+2021-11-01,Patrimonial,sinistro,R$,635522804.1400001
+2021-12-01,Patrimonial,sinistro,R$,1072571550.34
+2022-01-01,Patrimonial,sinistro,R$,635952400.3000001
+2022-02-01,Patrimonial,sinistro,R$,732868692.95
+2022-03-01,Patrimonial,sinistro,R$,772979203.66
+2022-04-01,Patrimonial,sinistro,R$,593537355.0
+2022-05-01,Patrimonial,sinistro,R$,1038617549.3100002
+2022-06-01,Patrimonial,sinistro,R$,361498323.92
+2022-07-01,Patrimonial,sinistro,R$,611648997.97
+2022-08-01,Patrimonial,sinistro,R$,432189386.1700001
+2022-09-01,Patrimonial,sinistro,R$,478251890.92
+2022-10-01,Patrimonial,sinistro,R$,448930758.08
+2022-11-01,Patrimonial,sinistro,R$,739656926.6600001
+2022-12-01,Patrimonial,sinistro,R$,456309851.65
+2023-01-01,Patrimonial,sinistro,R$,694354965.7199999
+2023-02-01,Patrimonial,sinistro,R$,610394588.45
+2023-03-01,Patrimonial,sinistro,R$,878868558.98
+2023-04-01,Patrimonial,sinistro,R$,699669839.29
+2023-05-01,Patrimonial,sinistro,R$,527103297.62
+2023-06-01,Patrimonial,sinistro,R$,721263698.58
+2023-07-01,Patrimonial,sinistro,R$,523765529.27
+2023-08-01,Patrimonial,sinistro,R$,768046575.4
+2023-09-01,Patrimonial,sinistro,R$,596997885.7
+2023-10-01,Patrimonial,sinistro,R$,861376566.8500001
+2023-11-01,Patrimonial,sinistro,R$,919840395.32
+2023-12-01,Patrimonial,sinistro,R$,668541133.9899999
+2024-01-01,Patrimonial,sinistro,R$,709413597.0099999
+2024-02-01,Patrimonial,sinistro,R$,758652633.69
+2024-03-01,Patrimonial,sinistro,R$,609298044.45
+2024-04-01,Patrimonial,sinistro,R$,609255147.98
+2024-05-01,Patrimonial,sinistro,R$,1459619589.01
+2024-06-01,Patrimonial,sinistro,R$,2054933475.1800003
+2024-07-01,Patrimonial,sinistro,R$,1712427181.61
+2024-08-01,Patrimonial,sinistro,R$,817032107.5400001
+2024-09-01,Patrimonial,sinistro,R$,1119458996.0900002
+2024-10-01,Patrimonial,sinistro,R$,692361923.07
+2024-11-01,Patrimonial,sinistro,R$,643367017.45
+2024-12-01,Patrimonial,sinistro,R$,659032056.9499998
+2025-01-01,Patrimonial,sinistro,R$,593633577.84
+2025-02-01,Patrimonial,sinistro,R$,1105340659.12
+2025-03-01,Patrimonial,sinistro,R$,630957430.96
+2025-04-01,Patrimonial,sinistro,R$,1016144862.79
+2025-05-01,Patrimonial,sinistro,R$,1514171003.71
+2025-06-01,Patrimonial,sinistro,R$,624003590.79
+2025-07-01,Patrimonial,sinistro,R$,248441411.77
+2025-08-01,Patrimonial,sinistro,R$,973628523.87
+2025-09-01,Patrimonial,sinistro,R$,755863210.8500001
+2025-10-01,Patrimonial,sinistro,R$,732970726.4599999
+2025-11-01,Patrimonial,sinistro,R$,705862170.0099999
+2025-12-01,Patrimonial,sinistro,R$,645396370.69
+2026-01-01,Patrimonial,sinistro,R$,756566115.0699999
+2026-02-01,Patrimonial,sinistro,R$,633997893.75
+2026-03-01,Patrimonial,sinistro,R$,845297897.91
+2026-04-01,Patrimonial,sinistro,R$,664252087.5600001
+2026-05-01,Patrimonial,sinistro,R$,571470902.6400001
+2026-06-01,Patrimonial,sinistro,R$,642115884.77
+2026-07-01,Patrimonial,sinistro,R$,662674524.4
+2021-01-01,Subtotal Danos e Responsabilidades,sinistro,R$,2865915804.310002
+2021-02-01,Subtotal Danos e Responsabilidades,sinistro,R$,3776619569.13
+2021-03-01,Subtotal Danos e Responsabilidades,sinistro,R$,3806161772.0900016
+2021-04-01,Subtotal Danos e Responsabilidades,sinistro,R$,3299228632.5999994
+2021-05-01,Subtotal Danos e Responsabilidades,sinistro,R$,3237293995.1800013
+2021-06-01,Subtotal Danos e Responsabilidades,sinistro,R$,2781437711.950001
+2021-07-01,Subtotal Danos e Responsabilidades,sinistro,R$,4208780162.81
+2021-08-01,Subtotal Danos e Responsabilidades,sinistro,R$,3960784254.479999
+2021-09-01,Subtotal Danos e Responsabilidades,sinistro,R$,3662630663.28
+2021-10-01,Subtotal Danos e Responsabilidades,sinistro,R$,4064598901.669999
+2021-11-01,Subtotal Danos e Responsabilidades,sinistro,R$,4112993988.3
+2021-12-01,Subtotal Danos e Responsabilidades,sinistro,R$,5447164651.909998
+2022-01-01,Subtotal Danos e Responsabilidades,sinistro,R$,6686654713.570003
+2022-02-01,Subtotal Danos e Responsabilidades,sinistro,R$,5915625012.22
+2022-03-01,Subtotal Danos e Responsabilidades,sinistro,R$,5634781499.589999
+2022-04-01,Subtotal Danos e Responsabilidades,sinistro,R$,4588108712.24
+2022-05-01,Subtotal Danos e Responsabilidades,sinistro,R$,5033749159.2300005
+2022-06-01,Subtotal Danos e Responsabilidades,sinistro,R$,4334466954.02
+2022-07-01,Subtotal Danos e Responsabilidades,sinistro,R$,4327206680.490001
+2022-08-01,Subtotal Danos e Responsabilidades,sinistro,R$,4564116363.430003
+2022-09-01,Subtotal Danos e Responsabilidades,sinistro,R$,4259772188.4899993
+2022-10-01,Subtotal Danos e Responsabilidades,sinistro,R$,4143104365.74
+2022-11-01,Subtotal Danos e Responsabilidades,sinistro,R$,4593555332.549999
+2022-12-01,Subtotal Danos e Responsabilidades,sinistro,R$,4251186620.839999
+2023-01-01,Subtotal Danos e Responsabilidades,sinistro,R$,4921081018.050003
+2023-02-01,Subtotal Danos e Responsabilidades,sinistro,R$,5140995925.620001
+2023-03-01,Subtotal Danos e Responsabilidades,sinistro,R$,5375712728.929998
+2023-04-01,Subtotal Danos e Responsabilidades,sinistro,R$,4779223306.359998
+2023-05-01,Subtotal Danos e Responsabilidades,sinistro,R$,4642315540.440001
+2023-06-01,Subtotal Danos e Responsabilidades,sinistro,R$,4388910328.429999
+2023-07-01,Subtotal Danos e Responsabilidades,sinistro,R$,3800077756.089999
+2023-08-01,Subtotal Danos e Responsabilidades,sinistro,R$,4513605605.02
+2023-09-01,Subtotal Danos e Responsabilidades,sinistro,R$,4347489394.210003
+2023-10-01,Subtotal Danos e Responsabilidades,sinistro,R$,4676297476.549997
+2023-11-01,Subtotal Danos e Responsabilidades,sinistro,R$,4773630550.25
+2023-12-01,Subtotal Danos e Responsabilidades,sinistro,R$,4141726199.660001
+2024-01-01,Subtotal Danos e Responsabilidades,sinistro,R$,5139683711.370002
+2024-02-01,Subtotal Danos e Responsabilidades,sinistro,R$,4694948628.749997
+2024-03-01,Subtotal Danos e Responsabilidades,sinistro,R$,4022907553.56
+2024-04-01,Subtotal Danos e Responsabilidades,sinistro,R$,4331996808.130001
+2024-05-01,Subtotal Danos e Responsabilidades,sinistro,R$,7059469206.030003
+2024-06-01,Subtotal Danos e Responsabilidades,sinistro,R$,6015300406.889998
+2024-07-01,Subtotal Danos e Responsabilidades,sinistro,R$,5534018328.960002
+2024-08-01,Subtotal Danos e Responsabilidades,sinistro,R$,4977333428.700003
+2024-09-01,Subtotal Danos e Responsabilidades,sinistro,R$,4865010860.750006
+2024-10-01,Subtotal Danos e Responsabilidades,sinistro,R$,4844175583.179998
+2024-11-01,Subtotal Danos e Responsabilidades,sinistro,R$,4645404113.949998
+2024-12-01,Subtotal Danos e Responsabilidades,sinistro,R$,4138048221.980002
+2025-01-01,Subtotal Danos e Responsabilidades,sinistro,R$,5538289731.349997
+2025-02-01,Subtotal Danos e Responsabilidades,sinistro,R$,5279476060.170001
+2025-03-01,Subtotal Danos e Responsabilidades,sinistro,R$,4942261335.779997
+2025-04-01,Subtotal Danos e Responsabilidades,sinistro,R$,5398216054.989999
+2025-05-01,Subtotal Danos e Responsabilidades,sinistro,R$,5831342679.549998
+2025-06-01,Subtotal Danos e Responsabilidades,sinistro,R$,5374573290.809999
+2025-07-01,Subtotal Danos e Responsabilidades,sinistro,R$,4747835503.640003
+2025-08-01,Subtotal Danos e Responsabilidades,sinistro,R$,5000901059.549996
+2025-09-01,Subtotal Danos e Responsabilidades,sinistro,R$,5152403221.969997
+2025-10-01,Subtotal Danos e Responsabilidades,sinistro,R$,5210583569.399998
+2025-11-01,Subtotal Danos e Responsabilidades,sinistro,R$,5172417037.330001
+2025-12-01,Subtotal Danos e Responsabilidades,sinistro,R$,5009527727.179998
+2026-01-01,Subtotal Danos e Responsabilidades,sinistro,R$,5301340082.08
+2026-02-01,Subtotal Danos e Responsabilidades,sinistro,R$,4635295498.680002
+2026-03-01,Subtotal Danos e Responsabilidades,sinistro,R$,5380915188.270003
+2026-04-01,Subtotal Danos e Responsabilidades,sinistro,R$,4940631712.739999
+2026-05-01,Subtotal Danos e Responsabilidades,sinistro,R$,4927644334.250001
+2026-06-01,Subtotal Danos e Responsabilidades,sinistro,R$,5159345279.030004
+2026-07-01,Subtotal Danos e Responsabilidades,sinistro,R$,5747525975.209998
