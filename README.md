@@ -2,9 +2,9 @@
 
 Análise de dados com Python e aplicação de BI em Streamlit sobre a **arrecadação, os sinistros e a sinistralidade dos seguros de Automóvel e Patrimonial** no Brasil, de janeiro de 2021 a julho de 2026.
 
-Projeto final individual de *Visualização de Dados e BI [T1]* (Módulo 2, Semana 13), SENAI Santa Catarina / LAB365. Autor(a): **[SEU NOME]**.
+Projeto final individual de *Visualização de Dados e BI [T1]* (Módulo 2, Semana 13), SENAI Santa Catarina / LAB365. Autora: Adriana Silva Dias de Souza.
 
-> **Aplicação publicada:** [inserir link do deploy no Streamlit Community Cloud]
+> **Aplicação publicada:[(http://localhost:8502/)]
 
 ---
 
