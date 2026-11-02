@@ -1,0 +1,18 @@
+# Dados brutos e processados: não versionar (licença de uso da fonte ainda em confirmação; arquivos grandes).
+# Só dados/app/ (valores agregados mínimos para o app) vai ao repositório.
+dados/original/
+dados/processado/
+*.xlsx
+SES_*.csv
+Ses_*.csv
+*.zip
+
+# Ambiente e segredos
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+.DS_Store

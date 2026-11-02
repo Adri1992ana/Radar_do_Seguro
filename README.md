@@ -2,9 +2,9 @@
 
 Análise de dados com Python e aplicação de BI em Streamlit sobre a **arrecadação, os sinistros e a sinistralidade dos seguros de Automóvel e Patrimonial** no Brasil, de janeiro de 2021 a julho de 2026.
 
-Projeto final individual de *Visualização de Dados e BI [T1]* (Módulo 2, Semana 13), SENAI Santa Catarina / LAB365. Autora: Adriana Silva Dias de Souza.
+Projeto final individual de *Visualização de Dados e BI [T1]* (Módulo 2, Semana 13), SENAI Santa Catarina / LAB365. Autora: ADRIANA SILVA DIAS DE SOUZA.
 
-> **Aplicação publicada:[(http://localhost:8502/)]
+> **Aplicação publicada:** [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/)
 
 ---
 
@@ -32,17 +32,17 @@ O projeto obtém a planilha pública de arrecadação do mercado segurador da CN
 
 ## 4. Fonte e autorização
 
-| Item | Detalhe |
-|---|---|
-| Fonte principal | CNseg, *Panorama Estatístico: Arrecadação do Mercado Segurador* (planilha de julho/2026). https://casadoseguro.cnseg.org.br/mais-conteudos/analises-e-estatisticas/panorama-estatistico |
-| Origem primária (segundo a própria planilha) | SES/SUSEP (extração de 28/09/2026) e DIOPS/ANS (extração de 17/09/2026) |
-| Fonte complementar | SUSEP, SES: arquivos `SES_ValoresMovRamos.csv`, `Ses_ramos.csv` e `Ses_campos.csv` (pacote `BaseCompleta.zip`, baixados em 27/10/2026). [inserir URL exata do portal da SUSEP] |
-| Período | Jan/2021 a jul/2026 (último mês publicado na planilha) |
-| Método de captura | Download manual dos arquivos públicos, sem scraping e sem API. A página da CNseg carrega a lista de arquivos por JavaScript. [inserir data do download da planilha] |
-| Campos usados (CNseg) | Abas *Arrecadação*, *Sinistros*, *Sinistralidade* e *De_Para_Ramos*; linhas Automóvel, Patrimonial, Habitacional e subtotal de Danos |
-| Campos usados (SUSEP) | `cmpid` 12011 (Prêmios Diretos) e 12181 (Sinistros Ocorridos); chave de ramo = `gracodigo` + `ramcodigo` (4 dígitos) |
-| Dados pessoais | Nenhum. Todos os dados são valores agregados do setor. O código da empresa (`coenti`) é descartado no ETL. |
-| Licença e termos | A página da CNseg não traz termos de uso, licença ou regra de citação que eu tenha encontrado. **Autorização solicitada por e-mail à CNseg em 31/10/2026; aguardando resposta.** Enquanto isso, o repositório é privado, os arquivos originais não são versionados e o app exibe apenas valores agregados, sempre com a fonte citada. |
+| Item                                           | Detalhe                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fonte principal                                | CNseg, *Panorama Estatístico: Arrecadação do Mercado Segurador* (planilha de julho/2026). https://casadoseguro.cnseg.org.br/mais-conteudos/analises-e-estatisticas/panorama-estatistico                                                                                                                                                            |
+| Origem primária (segundo a própria planilha) | SES/SUSEP (extração de 28/09/2026) e DIOPS/ANS (extração de 17/09/2026)                                                                                                                                                                                                                                                                             |
+| Fonte complementar                             | SUSEP, SES: arquivos `SES_ValoresMovRamos.csv`, `Ses_ramos.csv` e `Ses_campos.csv` (pacote `BaseCompleta.zip`, baixados em 27/10/2026). [inserir URL exata do portal da SUSEP]                                                                                                                                                                  |
+| Período                                       | Jan/2021 a jul/2026 (último mês publicado na planilha)                                                                                                                                                                                                                                                                                                |
+| Método de captura                             | Download manual dos arquivos públicos, sem scraping e sem API. A página da CNseg carrega a lista de arquivos por JavaScript. [inserir data do download da planilha]                                                                                                                                                                                   |
+| Campos usados (CNseg)                          | Abas *Arrecadação*, *Sinistros*, *Sinistralidade* e *De_Para_Ramos*; linhas Automóvel, Patrimonial, Habitacional e subtotal de Danos                                                                                                                                                                                                         |
+| Campos usados (SUSEP)                          | `cmpid` 12011 (Prêmios Diretos) e 12181 (Sinistros Ocorridos); chave de ramo = `gracodigo` + `ramcodigo` (4 dígitos)                                                                                                                                                                                                                            |
+| Dados pessoais                                 | Nenhum. Todos os dados são valores agregados do setor. O código da empresa (`coenti`) é descartado no ETL.                                                                                                                                                                                                                                         |
+| Licença e termos                              | A página da CNseg não traz termos de uso, licença ou regra de citação que eu tenha encontrado. **Autorização solicitada por e-mail à CNseg em 31/10/2026; aguardando resposta.** Enquanto isso, o repositório é privado, os arquivos originais não são versionados e o app exibe apenas valores agregados, sempre com a fonte citada. |
 
 ## 5. Pipeline e metodologia
 
@@ -59,16 +59,16 @@ SES_ValoresMovRamos.csv ──►  susep_validacao.py  ──►  dados/processa
 
 **Transformação (decisões de limpeza).** O ETL registra o que foi feito em `observacao` e em `qa_checks.csv`:
 
-| Problema encontrado na fonte | Decisão |
-|---|---|
-| Datas do cabeçalho derivam de 1 a 8 dias (ex.: `2021-10-02`) | Calendário reconstruído por posição (12 meses + 1 coluna de total anual por ano) |
-| Colunas de total anual misturadas com as mensais | Separadas em tabela anual própria, para evitar dupla contagem |
-| Meses futuros (ago a dez/2026) aparecem como 0 | Convertidos para vazio (NaN) |
-| Sinistralidade **anual** de Danos repete o mesmo valor em 2022, 2023 e 2024 (erro de origem) | 20 valores anulados; o app usa apenas a série mensal |
-| Aba *Sinistralidade* mistura razão (%) e valores em R$ | Separados em `sinistralidade` (razão) e `captacao_liquida` (R$) |
-| Subtotal de Capitalização (captação líquida) de abr a jul/2026 repete o de Sinistros | Recalculado pela soma dos itens (fora do escopo do app, mas registrado) |
-| Linha DPVAT da aba *Sinistralidade* idêntica à da aba *Sinistros* | Descartada |
-| Saúde Suplementar (ANS) é trimestral, com zeros nos outros meses | Zeros viram vazio fora de mar/jun/set/dez (fora do escopo do app) |
+| Problema encontrado na fonte                                                                                                   | Decisão                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| Datas do cabeçalho derivam de 1 a 8 dias (ex.: `2021-10-02`)                                                                | Calendário reconstruído por posição (12 meses + 1 coluna de total anual por ano) |
+| Colunas de total anual misturadas com as mensais                                                                               | Separadas em tabela anual própria, para evitar dupla contagem                       |
+| Meses futuros (ago a dez/2026) aparecem como 0                                                                                 | Convertidos para vazio (NaN)                                                         |
+| Sinistralidade **anual** de Danos repete o mesmo valor em 2022, 2023 e 2024 (erro de origem)                             | 20 valores anulados; o app usa apenas a série mensal                                |
+| Aba *Sinistralidade* mistura razão (%) e valores em R$ | Separados em `sinistralidade` (razão) e `captacao_liquida` (R$) |                                                                                      |
+| Subtotal de Capitalização (captação líquida) de abr a jul/2026 repete o de Sinistros                                      | Recalculado pela soma dos itens (fora do escopo do app, mas registrado)              |
+| Linha DPVAT da aba *Sinistralidade* idêntica à da aba *Sinistros*                                                        | Descartada                                                                           |
+| Saúde Suplementar (ANS) é trimestral, com zeros nos outros meses                                                             | Zeros viram vazio fora de mar/jun/set/dez (fora do escopo do app)                    |
 
 **Conferências automáticas:** 1.231 testes (soma dos meses contra o total anual da fonte, itens contra subtotal, total do mercado contra segmentos). Falharam 4, todos no subtotal de Capitalização acima, já corrigidos.
 
@@ -76,28 +76,28 @@ SES_ValoresMovRamos.csv ──►  susep_validacao.py  ──►  dados/processa
 
 **Estatística (`src/analysis.py`).**
 
-| Medida | Método e por quê |
-|---|---|
-| Variação a/a | Compara o mês com o mesmo mês do ano anterior; neutraliza a sazonalidade |
-| Acumulado de 12 meses | Soma móvel; deixa a tendência visível |
-| CAGR 2021-2025 | Só anos completos, valores nominais |
-| Índice sazonal | Valor do mês ÷ média do ano, promediado nos anos completos. Método simples; não separa o crescimento ao longo do ano |
-| Volatilidade | Coeficiente de variação dos últimos 24 meses e desvio-padrão da variação a/a |
-| Tendência | Regressão linear simples (`scipy.stats.linregress`); descreve a direção, não prevê |
-| Valores atípicos | Escore z robusto (mediana e MAD), corte de 3,5 |
+| Medida                               | Método e por quê                                                                                                                                  |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Variação a/a                       | Compara o mês com o mesmo mês do ano anterior; neutraliza a sazonalidade                                                                          |
+| Acumulado de 12 meses                | Soma móvel; deixa a tendência visível                                                                                                            |
+| CAGR 2021-2025                       | Só anos completos, valores nominais                                                                                                                |
+| Índice sazonal                      | Valor do mês ÷ média do ano, promediado nos anos completos. Método simples; não separa o crescimento ao longo do ano                           |
+| Volatilidade                         | Coeficiente de variação dos últimos 24 meses e desvio-padrão da variação a/a                                                                  |
+| Tendência                           | Regressão linear simples (`scipy.stats.linregress`); descreve a direção, não prevê                                                           |
+| Valores atípicos                    | Escore z robusto (mediana e MAD), corte de 3,5                                                                                                      |
 | Relação arrecadação × sinistros | Correlação de Pearson e de Spearman entre as **variações a/a** (e não entre níveis, para não confundir tendência comum com relação) |
 
 ## 6. Bibliotecas e tecnologias
 
-| Biblioteca | Função no projeto |
-|---|---|
-| [pandas](https://pandas.pydata.org/docs/) | Leitura em blocos, limpeza, agregações e séries temporais |
-| [NumPy](https://numpy.org/doc/) | Cálculos numéricos |
-| [openpyxl](https://openpyxl.readthedocs.io/) | Leitura da planilha da CNseg |
-| [SciPy](https://docs.scipy.org/doc/scipy/) | Regressão linear, correlações de Pearson e Spearman |
-| [Plotly](https://plotly.com/python/) | Gráficos interativos (linhas, barras, dispersão, mapa de calor) |
-| [Streamlit](https://docs.streamlit.io/) | Aplicação de BI e publicação (Community Cloud) |
-| Git e GitHub | Versionamento e repositório privado |
+| Biblioteca                                  | Função no projeto                                               |
+| ------------------------------------------- | ----------------------------------------------------------------- |
+| [pandas](https://pandas.pydata.org/docs/)    | Leitura em blocos, limpeza, agregações e séries temporais      |
+| [NumPy](https://numpy.org/doc/)              | Cálculos numéricos                                              |
+| [openpyxl](https://openpyxl.readthedocs.io/) | Leitura da planilha da CNseg                                      |
+| [SciPy](https://docs.scipy.org/doc/scipy/)   | Regressão linear, correlações de Pearson e Spearman            |
+| [Plotly](https://plotly.com/python/)         | Gráficos interativos (linhas, barras, dispersão, mapa de calor) |
+| [Streamlit](https://docs.streamlit.io/)      | Aplicação de BI e publicação (Community Cloud)                |
+| Git e GitHub                                | Versionamento e repositório privado                              |
 
 ## 7. Resultados encontrados
 
@@ -105,54 +105,55 @@ Valores nominais; "12 meses" = agosto/2025 a julho/2026. Fonte: CNseg.
 
 ### Arrecadação (prêmio direto)
 
-| | Automóvel | Patrimonial |
-|---|---|---|
-| Jul/2026 | R$ 5,97 bi (+5,9% sobre jul/2025) | R$ 3,31 bi (+8,1%) |
-| Acumulado jan-jul/2026 | R$ 36,70 bi (+6,2%) | R$ 19,19 bi (+4,0%) |
-| 12 meses | R$ 63,72 bi (+6,9%) | R$ 32,52 bi (+7,5%) |
-| Crescimento médio anual 2021-2025 (CAGR) | 12,5% | 17,0% |
-| Variação a/a por ano | 2022: +32,8%; 2023: +9,4%; 2024: +3,2%; 2025: +6,8% | 2022: +21,3%; 2023: +17,2%; 2024: +16,3%; 2025: +13,3% |
+|                                           | Automóvel                                               | Patrimonial                                            |
+| ----------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------ |
+| Jul/2026                                  | R$ 5,97 bi (+5,9% sobre jul/2025) | R$ 3,31 bi (+8,1%) |                                                        |
+| Acumulado jan-jul/2026                    | R$ 36,70 bi (+6,2%) | R$ 19,19 bi (+4,0%)              |                                                        |
+| 12 meses                                  | R$ 63,72 bi (+6,9%) | R$ 32,52 bi (+7,5%)              |                                                        |
+| Crescimento médio anual 2021-2025 (CAGR) | 12,5%                                                    | 17,0%                                                  |
+| Variação a/a por ano                    | 2022: +32,8%; 2023: +9,4%; 2024: +3,2%; 2025: +6,8%      | 2022: +21,3%; 2023: +17,2%; 2024: +16,3%; 2025: +13,3% |
 
 ### Sinistros e sinistralidade
 
-| | Automóvel | Patrimonial |
-|---|---|---|
-| Sinistros em 12 meses | R$ 37,36 bi (+8,6%) | R$ 8,59 bi (-11,1%) |
-| Sinistros ÷ arrecadação em 12 meses | 58,6% | 26,4% |
-| Sinistralidade de jul/2026 (índice da CNseg) | 63,1% | 25,5% |
-| Meses atípicos (|z robusto| > 3,5) | nov/2021, mar/2022, mai/2022 (75% a 77%) | fev/2021 (102,4%) e jun/2024 (99,3%) |
-| Tendência linear da sinistralidade mensal | -1,2 p.p. por ano (R² = 0,11) | -3,8 p.p. por ano (R² = 0,11) |
+|                                               | Automóvel                                  | Patrimonial                    |
+| --------------------------------------------- | ------------------------------------------- | ------------------------------ |
+| Sinistros em 12 meses                         | R$ 37,36 bi (+8,6%) | R$ 8,59 bi (-11,1%) |                                |
+| Sinistros ÷ arrecadação em 12 meses        | 58,6%                                       | 26,4%                          |
+| Sinistralidade de jul/2026 (índice da CNseg) | 63,1%                                       | 25,5%                          |
+| Meses atípicos (                             | z robusto                                   | > 3,5)                         |
+| Tendência linear da sinistralidade mensal    | -1,2 p.p. por ano (R² = 0,11)              | -3,8 p.p. por ano (R² = 0,11) |
 
 ### Sazonalidade e volatilidade
 
-| | Automóvel | Patrimonial |
-|---|---|---|
-| Mês mais forte da arrecadação (índice) | Dezembro (1,17) | Junho (1,17) |
-| Mês mais fraco | Fevereiro (0,85) | Fevereiro (0,86) |
-| Coeficiente de variação (24 meses) | 7,5% | 11,7% |
-| Desvio-padrão da variação a/a, arrecadação | 13,0 p.p. | 9,3 p.p. |
-| Desvio-padrão da variação a/a, **sinistros** | 15,9 p.p. | 157,4 p.p. |
+|                                                       | Automóvel       | Patrimonial      |
+| ----------------------------------------------------- | ---------------- | ---------------- |
+| Mês mais forte da arrecadação (índice)            | Dezembro (1,17)  | Junho (1,17)     |
+| Mês mais fraco                                       | Fevereiro (0,85) | Fevereiro (0,86) |
+| Coeficiente de variação (24 meses)                  | 7,5%             | 11,7%            |
+| Desvio-padrão da variação a/a, arrecadação       | 13,0 p.p.        | 9,3 p.p.         |
+| Desvio-padrão da variação a/a, **sinistros** | 15,9 p.p.        | 157,4 p.p.       |
 
 ### Relação entre arrecadação e sinistros (variações a/a, 55 meses)
 
-| | Pearson | Spearman |
-|---|---|---|
-| Automóvel | 0,79 (p < 0,001) | 0,73 (p < 0,001) |
-| Patrimonial | 0,10 (p = 0,46) | 0,15 (p = 0,27) |
+|             | Pearson          | Spearman         |
+| ----------- | ---------------- | ---------------- |
+| Automóvel  | 0,79 (p < 0,001) | 0,73 (p < 0,001) |
+| Patrimonial | 0,10 (p = 0,46)  | 0,15 (p = 0,27)  |
 
 ### Validação cruzada CNseg × SUSEP (jul/2026)
 
-| Grupo | Arrecadação (SUSEP × CNseg) | Sinistros (diferença) |
-|---|---|---|
-| Automóvel | R$ 5.970.141.873 × 5.970.141.874 | +0,05% |
-| Patrimonial | R$ 3.314.387.869 (idêntico) | +0,02% |
-| Habitacional | R$ 752.740.770 (idêntico) | 0,00% |
+| Grupo        | Arrecadação (SUSEP × CNseg)    | Sinistros (diferença) |
+| ------------ | --------------------------------- | ---------------------- |
+| Automóvel   | R$ 5.970.141.873 × 5.970.141.874 | +0,05%                 |
+| Patrimonial  | R$ 3.314.387.869 (idêntico)      | +0,02%                 |
+| Habitacional | R$ 752.740.770 (idêntico)        | 0,00%                  |
 
 O campo *Prêmios Diretos* (12011) é o que reproduz a arrecadação da CNseg, o que confirma a definição da própria planilha ("prêmio direto: emissão líquida de cancelamento e restituição"). A página **Validação** do app mostra a diferença mês a mês.
 
 ## 8. Discussão e conclusão
 
 **Observações** (apoiadas nos números acima):
+
 - Os dois grupos cresceram em prêmio todos os anos, mas **em ritmo decrescente**: Automóvel saiu de +32,8% (2022) para +6,8% (2025); Patrimonial de +21,3% para +13,3%, e no acumulado de 2026 está em +4,0%.
 - Em Patrimonial, os sinistros dos 12 meses caíram 11,1% enquanto a arrecadação subiu 7,5%; em Automóvel, os sinistros subiram mais (+8,6%) que o prêmio (+6,9%).
 - A arrecadação de Automóvel tem pico em dezembro e vale em fevereiro; os sinistros de Patrimonial são muito mais instáveis que os de Automóvel (desvio-padrão da variação a/a de 157 p.p. contra 16 p.p.).
@@ -175,17 +176,17 @@ O campo *Prêmios Diretos* (12011) é o que reproduz a arrecadação da CNseg, o
 
 ## 10. Aplicação Streamlit
 
-**Link:** [inserir link do deploy]
+**Link:** [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/)
 
-| Página | O que mostra |
-|---|---|
-| Visão geral | Pergunta, público e indicadores do último mês por grupo |
-| Evolução | Séries mensais ou acumuladas em 12 meses, totais anuais e CAGR |
+| Página                     | O que mostra                                                          |
+| --------------------------- | --------------------------------------------------------------------- |
+| Visão geral                | Pergunta, público e indicadores do último mês por grupo            |
+| Evolução                  | Séries mensais ou acumuladas em 12 meses, totais anuais e CAGR       |
 | Sazonalidade e volatilidade | Índice sazonal, mapa de calor mês × ano, volatilidade e tendência |
-| Sinistralidade e relações | Sinistralidade mensal, meses atípicos, dispersão e correlação |
-| Detalhe por ramo (SUSEP) | Ramos de cada grupo (inclui Residencial, Condomínio e Empresarial) |
-| Validação CNseg × SUSEP | Diferença entre as fontes por grupo e mês |
-| Sobre e limitações | Fontes, definições e avisos |
+| Sinistralidade e relações | Sinistralidade mensal, meses atípicos, dispersão e correlação     |
+| Detalhe por ramo (SUSEP)    | Ramos de cada grupo (inclui Residencial, Condomínio e Empresarial)   |
+| Validação CNseg × SUSEP  | Diferença entre as fontes por grupo e mês                           |
+| Sobre e limitações        | Fontes, definições e avisos                                         |
 
 **Navegação:** menu na barra lateral; filtros de grupos (Automóvel, Patrimonial, Habitacional) e de período valem para todas as páginas. Cada gráfico tem título, eixos com unidade, fonte e tabela de dados; os filtros ativos aparecem sob o título.
 
@@ -255,18 +256,18 @@ Radar_do_Seguro/
 - **Bibliotecas:** pandas, NumPy, openpyxl, SciPy, Plotly e Streamlit (links na seção 6).
 - **Método de valores atípicos:** escore z robusto com MAD e corte de 3,5 (Iglewicz e Hoaglin, *How to Detect and Handle Outliers*, 1993).
 - **Orientação do projeto:** Prof. Rodrigo Garcia Brunini, SENAI Santa Catarina / LAB365 (enunciado do projeto).
-- **Apoio de IA:** o desenvolvimento contou com a assistência do Claude (Anthropic) para escrever e revisar código e documentação. As escolhas de tema, escopo e fontes, a execução dos scripts, a conferência dos resultados e as decisões analíticas são do autor.
+- **Apoio de IA:** o desenvolvimento contou com a assistência do Claude (Anthropic) para escrever e revisar código e documentação. As escolhas de tema, escopo e fontes, a execução dos scripts, a conferência dos resultados e as decisões analíticas são da autora.
 
 ## 15. Links de entrega
 
-| Item | Link |
-|---|---|
-| Repositório pessoal (privado) | https://github.com/Adri1992ana/Radar_do_Seguro |
-| Aplicação publicada | [inserir] |
-| Quadro de tarefas (Trello) | [inserir] |
-| Repositório oficial da turma | [inserir] |
-| Vídeo (até 3 min, LinkedIn) | [inserir] |
-| Vídeo (Google Drive, leitor para qualquer pessoa) | [inserir] |
+| Item                                               | Link                                                                                                                       |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Repositório pessoal (privado)                     | https://github.com/Adri1992ana/Radar_do_Seguro                                                                             |
+| Aplicação publicada                              | [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/)                                                         |
+| Quadro de tarefas (Trello)                         | [trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados](https://trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados)  |
+| Repositório oficial da turma                      | [inserir]                                                                                                                  |
+| Vídeo (até 3 min, LinkedIn)                      | [inserir]                                                                                                                  |
+| Vídeo (Google Drive, leitor para qualquer pessoa) | [inserir]                                                                                                                  |
 
 **Estratégia de versionamento:** branch `main` com commits pequenos e mensagens no imperativo (por exemplo, "adiciona ETL da planilha da CNseg"). [ajustar se criar branches de funcionalidade]
 
