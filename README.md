@@ -260,14 +260,14 @@ Radar_do_Seguro/
 
 ## 15. Links de entrega
 
-| Item                                               | Link                                                                                                                       |
-| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Repositório pessoal (privado)                     | https://github.com/Adri1992ana/Radar_do_Seguro                                                                             |
-| Aplicação publicada                              | [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/)                                                         |
-| Quadro de tarefas (Trello)                         | [trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados](https://trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados)  |
-| Repositório oficial da turma                      | [inserir]                                                                                                                  |
-| Vídeo (até 3 min, LinkedIn)                      | [inserir]                                                                                                                  |
-| Vídeo (Google Drive, leitor para qualquer pessoa) | [inserir]                                                                                                                  |
+| Item                                               | Link                                                                                                                      |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Repositório pessoal (privado)                     | https://github.com/Adri1992ana/Radar_do_Seguro                                                                            |
+| Aplicação publicada                              | [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/)                                                        |
+| Quadro de tarefas (Trello)                         | [trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados](https://trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados) |
+| Repositório oficial da turma                      | [inserir]                                                                                                                 |
+| Vídeo (até 3 min, LinkedIn)                      | [lnkd.in/p/dk6sbhPE](https://lnkd.in/p/dk6sbhPE)                                                                           |
+| Vídeo (Google Drive, leitor para qualquer pessoa) | [www.loom.com/share/2eb62e6841ac456099a0e3cab17d8725](https://www.loom.com/share/2eb62e6841ac456099a0e3cab17d8725)         |
 
 **Estratégia de versionamento:** branch `main` com commits pequenos e mensagens no imperativo (por exemplo, "adiciona ETL da planilha da CNseg"). [ajustar se criar branches de funcionalidade]
 
