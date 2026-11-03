@@ -1,8 +1,9 @@
+
 # Radar do Seguro: Automóvel e Patrimonial
 
 Análise de dados com Python e aplicação de BI em Streamlit sobre a **arrecadação, os sinistros e a sinistralidade dos seguros de Automóvel e Patrimonial** no Brasil, de janeiro de 2021 a julho de 2026.
 
-Projeto final individual de *Visualização de Dados e BI [T1]* (Módulo 2, Semana 13), SENAI Santa Catarina / LAB365. Autora: ADRIANA SILVA DIAS DE SOUZA.
+Projeto final individual de *Visualização de Dados e BI [T1]* (Módulo 2, Semana 13), SENAI Santa Catarina / LAB365. Autora: Adriana Silva Dias de Souza.
 
 > **Aplicação publicada:** [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/)
 
@@ -32,17 +33,17 @@ O projeto obtém a planilha pública de arrecadação do mercado segurador da CN
 
 ## 4. Fonte e autorização
 
-| Item                                           | Detalhe                                                                                                                                                                                                                                                                                                                      |
-| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fonte principal                                | CNseg, *Panorama Estatístico: Arrecadação do Mercado Segurador* (planilha de julho/2026). https://casadoseguro.cnseg.org.br/mais-conteudos/analises-e-estatisticas/panorama-estatistico                                                                                                                                 |
-| Origem primária (segundo a própria planilha) | SES/SUSEP (extração de 28/09/2026) e DIOPS/ANS (extração de 17/09/2026)                                                                                                                                                                                                                                                  |
-| Fonte complementar                             | SUSEP, SES: arquivos `SES_ValoresMovRamos.csv`, `Ses_ramos.csv` e `Ses_campos.csv` (pacote `BaseCompleta.zip`, baixados em 27/10/2026). <br />[www2.susep.gov.br/menuestatistica/SES/principal.aspx?utm_source](https://www2.susep.gov.br/menuestatistica/SES/principal.aspx?utm_source)                             |
-| Período                                       | Jan/2021 a jul/2026 (último mês publicado na planilha)                                                                                                                                                                                                                                                                     |
-| Método de captura                             | Download manual dos arquivos públicos, sem scraping e sem API. A página da CNseg carrega a lista de arquivos por JavaScript. Baixados em 31/10/2026)                                                                                                                                                                      |
-| Campos usados (CNseg)                          | Abas *Arrecadação*, *Sinistros*, *Sinistralidade* e *De_Para_Ramos*; linhas Automóvel, Patrimonial, Habitacional e subtotal de Danos                                                                                                                                                                              |
-| Campos usados (SUSEP)                          | `cmpid` 12011 (Prêmios Diretos) e 12181 (Sinistros Ocorridos); chave de ramo = `gracodigo` + `ramcodigo` (4 dígitos)                                                                                                                                                                                                 |
-| Dados pessoais                                 | Nenhum. Todos os dados são valores agregados do setor. O código da empresa (`coenti`) é descartado no ETL.                                                                                                                                                                                                              |
-| Licença e termos                              | A página da CNseg não traz termos de uso, licença ou regra de citação que eu tenha encontrado. **Autorização solicitada por e-mail à CNseg em 31/10/2026; aguardando resposta.** Enquanto isso, os arquivos originais não são versionados e o app exibe apenas valores agregados, sempre com a fonte citada. |
+| Item                                           | Detalhe                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fonte principal                                | CNseg, *Panorama Estatístico: Arrecadação do Mercado Segurador* (planilha de julho/2026). https://casadoseguro.cnseg.org.br/mais-conteudos/analises-e-estatisticas/panorama-estatistico                                                                                                                                                                                                                                                                                            |
+| Origem primária (segundo a própria planilha) | SES/SUSEP (extração de 28/09/2026) e DIOPS/ANS (extração de 17/09/2026)                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Fonte complementar                             | SUSEP, SES: arquivos `SES_ValoresMovRamos.csv`, `Ses_ramos.csv` e `Ses_campos.csv` (pacote `BaseCompleta.zip`, baixados em 27/10/2026). https://www2.susep.gov.br/menuestatistica/SES/principal.aspx                                                                                                                                                                                                                                                                            |
+| Período                                       | Jan/2021 a jul/2026 (último mês publicado na planilha)                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Método de captura                             | Download manual dos arquivos públicos, sem scraping e sem API. A página da CNseg carrega a lista de arquivos por JavaScript. Baixados em 31/10/2026.                                                                                                                                                                                                                                                                                                                                  |
+| Campos usados (CNseg)                          | Abas *Arrecadação*, *Sinistros*, *Sinistralidade* e *De_Para_Ramos*; linhas Automóvel, Patrimonial, Habitacional e subtotal de Danos                                                                                                                                                                                                                                                                                                                                         |
+| Campos usados (SUSEP)                          | `cmpid` 12011 (Prêmios Diretos) e 12181 (Sinistros Ocorridos); chave de ramo = `gracodigo` + `ramcodigo` (4 dígitos)                                                                                                                                                                                                                                                                                                                                                            |
+| Dados pessoais                                 | Nenhum. Todos os dados são valores agregados do setor. O código da empresa (`coenti`) é descartado no ETL.                                                                                                                                                                                                                                                                                                                                                                         |
+| Licença e termos                              | A página da CNseg não traz termos de uso, licença ou regra de citação que eu tenha encontrado. **Autorização solicitada por e-mail à CNseg em 31/10/2026; sem resposta até 03/11/2026.** Uso estritamente acadêmico e sem fins comerciais. Os arquivos originais não são versionados, o app exibe apenas valores agregados, e a fonte é sempre citada. Se a CNseg se manifestar contra a divulgação, os dados derivados serão removidos do repositório e do app. |
 
 ## 5. Pipeline e metodologia
 
@@ -97,7 +98,7 @@ SES_ValoresMovRamos.csv ──►  susep_validacao.py  ──►  dados/processa
 | [SciPy](https://docs.scipy.org/doc/scipy/)   | Regressão linear, correlações de Pearson e Spearman            |
 | [Plotly](https://plotly.com/python/)         | Gráficos interativos (linhas, barras, dispersão, mapa de calor) |
 | [Streamlit](https://docs.streamlit.io/)      | Aplicação de BI e publicação (Community Cloud)                |
-| Git e GitHub                                | Versionamento e repositório privado                              |
+| Git e GitHub                                | Versionamento e repositório                                      |
 
 ## 7. Resultados encontrados
 
@@ -115,13 +116,13 @@ Valores nominais; "12 meses" = agosto/2025 a julho/2026. Fonte: CNseg.
 
 ### Sinistros e sinistralidade
 
-|                                               | Automóvel                                  | Patrimonial                    |
-| --------------------------------------------- | ------------------------------------------- | ------------------------------ |
-| Sinistros em 12 meses                         | R$ 37,36 bi (+8,6%) | R$ 8,59 bi (-11,1%) |                                |
-| Sinistros ÷ arrecadação em 12 meses        | 58,6%                                       | 26,4%                          |
-| Sinistralidade de jul/2026 (índice da CNseg) | 63,1%                                       | 25,5%                          |
-| Meses atípicos (                             | z robusto                                   | > 3,5)                         |
-| Tendência linear da sinistralidade mensal    | -1,2 p.p. por ano (R² = 0,11)              | -3,8 p.p. por ano (R² = 0,11) |
+|                                               | Automóvel                                  | Patrimonial                          |
+| --------------------------------------------- | ------------------------------------------- | ------------------------------------ |
+| Sinistros em 12 meses                         | R$ 37,36 bi (+8,6%) | R$ 8,59 bi (-11,1%) |                                      |
+| Sinistros ÷ arrecadação em 12 meses        | 58,6%                                       | 26,4%                                |
+| Sinistralidade de jul/2026 (índice da CNseg) | 63,1%                                       | 25,5%                                |
+| Meses atípicos (z robusto acima de 3,5)      | nov/2021, mar/2022, mai/2022 (75% a 77%)    | fev/2021 (102,4%) e jun/2024 (99,3%) |
+| Tendência linear da sinistralidade mensal    | -1,2 p.p. por ano (R² = 0,11)              | -3,8 p.p. por ano (R² = 0,11)       |
 
 ### Sazonalidade e volatilidade
 
@@ -171,7 +172,7 @@ O campo *Prêmios Diretos* (12011) é o que reproduz a arrecadação da CNseg, o
 - **Atualização:** a CNseg publica a planilha mensalmente. Basta substituir o arquivo em `dados/original/` e rodar o pipeline (seção 11). O ETL interrompe com erro se o calendário do cabeçalho mudar, em vez de gravar dados errados.
 - **Qualidade:** os 1.231 testes automáticos e a validação com a SUSEP detectam inconsistências; erros da fonte são registrados, não escondidos.
 - **Segurança e privacidade:** só dados agregados do setor, sem pessoas nem empresas; sem credenciais no código.
-- **Governança:** confirmar a licença de uso e de divulgação antes de qualquer uso comercial. Em um uso real, a SUSEP (fonte primária) seria a base preferida.
+- **Governança:** a autorização da CNseg não foi confirmada até a entrega (seção 4). Antes de qualquer uso comercial ou divulgação ampla, é preciso confirmar a licença de uso. Em um uso real, a SUSEP (fonte primária) seria a base preferida.
 - **Riscos e manutenção:** mudança de layout da planilha; revisão retroativa dos dados pelas seguradoras; dependência de download manual. Melhoria natural: automatizar a coleta, se permitido pelos termos da fonte.
 
 ## 10. Aplicação Streamlit
@@ -201,7 +202,7 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-O app abre em [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/) e usa os arquivos já incluídos em `dados/app/`. Não há segredos nem variáveis de ambiente.
+O app abre localmente em http://localhost:8501 e usa os arquivos já incluídos em `dados/app/`. A versão publicada está em [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/). Não há segredos nem variáveis de ambiente.
 
 **Para reproduzir o pipeline completo** (os arquivos de entrada **não** estão no repositório):
 
@@ -220,6 +221,8 @@ O arquivo da SUSEP é grande (cerca de 550 MB); a leitura em blocos leva alguns 
 
 ## 12. Estrutura de pastas
 
+Na pasta da turma, a raiz do projeto é `Adriana_Silva_Dias_de_Souza/`; a estrutura abaixo é a mesma.
+
 ```
 Radar_do_Seguro/
 ├── app.py                      # aplicação Streamlit
@@ -235,12 +238,13 @@ Radar_do_Seguro/
 │   ├── app/                    # versionado: valores agregados lidos pelo app
 │   ├── original/               # NÃO versionado: planilha e CSVs da SUSEP
 │   └── processado/             # NÃO versionado: saídas do ETL (regeneráveis)
+├── imagens/                    # imagens do projeto
 └── notebooks/                  # exploração inicial
 ```
 
 ## 13. Limitações e melhorias futuras
 
-- **Licença:** autorização da CNseg ainda pendente (seção 4).
+- **Licença:** autorização da CNseg solicitada em 31/10/2026 e ainda sem resposta (seção 4). O projeto foi feito para fins acadêmicos, com fonte citada.
 - **Valores nominais:** crescimento inclui inflação e reajustes. Melhoria: deflacionar com IPCA.
 - **Dados preliminares:** os meses mais recentes podem ser revisados pelas seguradoras.
 - **Sinistralidade da fonte ≠ sinistros ÷ arrecadação** (ex.: Automóvel em jan/2026: 63,5% pela divisão e 60,6% no índice). Provável diferença de base de prêmio; hipótese não verificada.
@@ -256,20 +260,20 @@ Radar_do_Seguro/
 - **Bibliotecas:** pandas, NumPy, openpyxl, SciPy, Plotly e Streamlit (links na seção 6).
 - **Método de valores atípicos:** escore z robusto com MAD e corte de 3,5 (Iglewicz e Hoaglin, *How to Detect and Handle Outliers*, 1993).
 - **Orientação do projeto:** Prof. Rodrigo Garcia Brunini, SENAI Santa Catarina / LAB365 (enunciado do projeto).
-- **Apoio de IA:** o desenvolvimento contou com a assistência do Claude (Anthropic) para escrever e revisar código e documentação. As escolhas de tema, escopo e fontes, a execução dos scripts, a conferência dos resultados e as decisões analíticas são da autora.
+- **Apoio de IA:** o desenvolvimento contou com a assistência do Claude (Anthropic) para escrever e revisar código e documentação. A utilização da IA teve como objetivo apoiar o processo de aprendizagem, sem substituir a análise crítica e a compreensão das etapas realizadas.
+
+**Estratégia de versionamento:** branch `main` com commits pequenos e mensagens no imperativo (por exemplo, "adiciona ETL da planilha da CNseg").
 
 ## 15. Links de entrega
 
-| Item                                               | Link                                                                                                                      |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Repositório pessoal (privado)                     | https://github.com/Adri1992ana/Radar_do_Seguro                                                                            |
-| Aplicação publicada                              | [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/)                                                        |
-| Quadro de tarefas (Trello)                         | [trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados](https://trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados) |
-| Repositório oficial da turma                      | [inserir]                                                                                                                 |
-| Vídeo (até 3 min, LinkedIn)                      | [lnkd.in/p/dk6sbhPE](https://lnkd.in/p/dk6sbhPE)                                                                           |
-| Vídeo (Google Drive, leitor para qualquer pessoa) | [www.loom.com/share/2eb62e6841ac456099a0e3cab17d8725](https://www.loom.com/share/2eb62e6841ac456099a0e3cab17d8725)         |
-
-**Estratégia de versionamento:** branch `main` com commits pequenos e mensagens no imperativo (por exemplo, "adiciona ETL da planilha da CNseg"). [ajustar se criar branches de funcionalidade]
+| Item                            | Link                                                                                                                                                                                             |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Repositório oficial da turma   | [Projeto_ZP / Projeto_Final_do_Curso / Adriana_Silva_Dias_de_Souza](https://github.com/Visualizacao-Dados-BI-T1/Projeto_ZP/tree/main/Projetos/Projeto_Final_do_Curso/Adriana_Silva_Dias_de_Souza) |
+| Aplicação publicada           | [radardoseguro.streamlit.app](https://radardoseguro.streamlit.app/)                                                                                                                               |
+| Vídeo (até 3 min, LinkedIn)   | [lnkd.in/p/dk6sbhPE](https://lnkd.in/p/dk6sbhPE)                                                                                                                                                  |
+| Vídeo (Loom, acesso por link)  | [loom.com/share/2eb62e6841ac456099a0e3cab17d8725](https://www.loom.com/share/2eb62e6841ac456099a0e3cab17d8725)                                                                                    |
+| Quadro de tarefas (Trello)      | [trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados](https://trello.com/b/9ZS88B0X/projeto-final-de-analise-de-dados)                                                                        |
+| Repositório pessoal (público) | [github.com/Adri1992ana/Radar_do_Seguro](https://github.com/Adri1992ana/Radar_do_Seguro)                                                                                                          |
 
 ## 16. Evidências das conclusões
 
